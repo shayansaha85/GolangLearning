@@ -1,9 +1,9 @@
 package main
 
-func main() {
-	cards := newDeck()
+// import "fmt"
 
-	hand, remainingDeck := deal(cards, 5)
-	hand.print()
-	remainingDeck.print()
+func main() {
+
+	cards := newDeckFromFile("my_cards.txt")
+	cards.print()
 }
