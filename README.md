@@ -26,3 +26,5 @@ func main() {
 - **func** : it is a method name. short form for "function"
 
 > **dtypes** : bool, string, int, float64
+> **struct** in golang is like dict in Python or object in JavaScript
+> golang is a pass by value language
