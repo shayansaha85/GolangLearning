@@ -28,7 +28,8 @@ func main() {
 		fmt.Printf("%+v", irin) // %+v prints the fieldnames and value of a struct in the console
 	*/
 
-	shayan := person{
+	shayan := person {
+
 		firstName: "Shayan",
 		lastName:  "Saha",
 		contact: contactInfo{

@@ -8,6 +8,7 @@
 
 ## break hello world code
 
+
 ```go
 package main
 
@@ -16,8 +17,9 @@ import "fmt"
 func main() {
 	fmt.Println("Hello World")
 }
-
 ```
+
+
 - **package == project == workspace**
 - every go file should have package name
 - **why we call the package "main"?** : inside go there are 2 types of packages : **executable** (for coding) & **reusable** (used as helper. kind of dependencies)
